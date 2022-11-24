@@ -10,6 +10,19 @@
       list-style: none;
 }
 
+::-webkit-scrollbar{
+      width: 12px;
+      background-color: #181818;;
+      
+
+}
+
+::-webkit-scrollbar-thumb{
+      background-color:rgba(29, 28, 229,0.4);
+      border-radius: 10px;
+      
+}
+
 body {
       width: 100%;
       background-color: #181818;
@@ -52,6 +65,14 @@ p {
       margin: 3px;
 }
 
+.container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+}
+
 section.home {
 
       display: flex;
@@ -70,6 +91,8 @@ section .home-item{
       text-align: justify;  
       justify-content: center;
       max-width: 80%;
+      min-height: auto;
+      padding: 10px;
 
 }
 
@@ -88,6 +111,8 @@ section.about {
       text-align: justify;      
       justify-content: center;
       flex-wrap: wrap;
+
+      min-height: 400px;
       background-color: #070918;
       
 }
@@ -98,6 +123,7 @@ section .about-item {
 }
 
 .title-section {
+      letter-spacing: 20px;
       padding: 10px;
 }
 
@@ -106,29 +132,52 @@ section.home p {
       text-align: justify;
 }
 
-.projects{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
+section.projects{    
+      text-align: center;
+      background: linear-gradient(180deg, rgba(7,9,24,1) 45%, rgba(67,1,73,1) 100%);
+}
+
+section.projects h2{
+      font-size: 40px;
 }
 
 .card{
-      max-width: 500px;
+      max-width: 400px;
       min-width: 100px;
-      background-color: red;
+      background: rgba(0, 0, 0, 0.5);
       margin: 10px;
 
-      padding: 10px;
+      padding: 20px;
+      border-radius: 8px;
       text-align: center;
+
+      
       
 }
 
 .img-card{
       background-color: #fff;
+      border-radius: 5px;
       height: 200px;
 }
 
+section.skills{
+      width: 100%;
+      height: 1080px;
+      background-image: url("../img/Minimalist-ocean-wallpaper-hd\ \(2\).png");
+
+}
+
+.soft-skills{
+      width: 100%;
+}
+
+.card-skills{
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      width: 500px;
+      height: 600px;
+}
 .text-card{
 
 }
