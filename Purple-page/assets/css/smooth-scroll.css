@@ -6,7 +6,7 @@ html{
       scroll-margin-top: 7em;
 }
 
-home:target, about:target, projects:target,skills:target{
+home:target, about:target, projects:target,skills:target, experince:target{
       scroll-behavior: smooth;
 }
 
