@@ -8,11 +8,12 @@
       padding: 0;
       font-family: 'Poppins', sans-serif;
       list-style: none;
+      text-decoration: none;
 }
 
 ::-webkit-scrollbar{
       width: 12px;
-      background-color: #181818;;
+      background-color: #181818;
       
 
 }
@@ -29,15 +30,19 @@ body {
       font-size: 100%;
 }
 
-header {}
+header {
+      width: 100%;
+      position: fixed;
+}
 
 nav {
-      position: sticky;
+      
 }
 
 .menu {
       background-color: #7743DB;
       display: flex;
+      
 }
 
 .flex-wrap {
@@ -49,6 +54,7 @@ ul {
       justify-content: flex-end;
       padding: 10px;
       border: 5px;
+      
 }
 
 li {
@@ -60,6 +66,11 @@ section {
       padding: 10px;
 }
 
+section{
+      min-width: 426px;
+}
+
+
 p {
       padding: 10px;
       margin: 3px;
@@ -70,6 +81,7 @@ p {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+     
 
 }
 
@@ -80,10 +92,15 @@ section.home {
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+            
+      height: 100%;
+      min-height: 1080px;
       
-      height: 1080px;
       background-image: url("../img/minimalist-landscape-to-1920x1080.jpg");
+      background-color: #070918;
+      background-repeat: no-repeat;
 }
+
 
 section .home-item{
       
@@ -97,9 +114,11 @@ section .home-item{
 }
 
 
+
 .home-button{
       font-size: 20px;
       background-color: #7743DB;
+      width: 120px;
       padding: 10px;
       border-radius: 10px;
       margin: 10px;
@@ -113,6 +132,7 @@ section.about {
       flex-wrap: wrap;
 
       min-height: 400px;
+      max-height: 100%;
       background-color: #070918;
       
 }
@@ -124,6 +144,7 @@ section .about-item {
 
 .title-section {
       letter-spacing: 20px;
+      font-size: 2.3em;
       padding: 10px;
 }
 
@@ -135,7 +156,9 @@ section.home p {
 section.projects{    
       text-align: center;
       background: linear-gradient(180deg, rgba(7,9,24,1) 45%, rgba(67,1,73,1) 100%);
-      height: 700px;
+      height: 100%;
+      min-height: 700px;
+      
 }
 
 section.projects h2{
@@ -151,9 +174,6 @@ section.projects h2{
       padding: 20px;
       border-radius: 8px;
       text-align: center;
-
-      
-      
 }
 
 .img-card{
@@ -164,18 +184,31 @@ section.projects h2{
 
 section.skills{
       width: 100%;
-      height: 1080px;
+      height: 100%;
+      background-color: #53B2DA;
       background-image: url("../img/Minimalist-ocean-wallpaper-hd\ \(2\).png");
+      background-repeat: no-repeat;
+      padding: 30px 10px 30px;
 
 }
 
-.soft-skills{
+.soft-skills, .hard-skills{
       width: 100%;
       margin-top: 10px;
+
       display: flex;
       align-items: center;
       justify-content: center;
+      background: rgba(0, 0, 0, 0.3);
+
+      height: 100%;
+      min-height: 600px;
      
+}
+
+.soft-skills, .hard-skills{
+      margin: 10px auto;
+      padding: 10px;
 }
      
 
@@ -183,29 +216,69 @@ section.skills{
 
 .focus-skills{
       background: rgba(0, 0, 0, 0.3);
-      border-radius: 50%;
-      max-width: 500px;
-      height: 500px;
+      border-radius: 3px;      
+      height: 300px;
      
      
 }
 
-.card-skills{
-      background: rgba(0, 0, 0, 0.1);
+.card-skills{      
       border-radius: 5px;
-      width: 90%;
-      height: 600px;
-      padding: 40px;
+      width: 100%;
+     
+      padding: 10px;
+}
+
+
+
+.hard-card-skills{
+
+      
+      border-radius: 5px;
+      width: 100%;
+      padding: 10px;
+
+}
+
+
+
+.card-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+}
+
+.card-container .hard-card-skills .focus-skills{
+      
+  
 }
 .text-card{
 
 }
 
+.experience{
+      width: 100%;
+      height: 100%;
+      min-height: 600px;
+      
+      background: linear-gradient(180deg, rgba(83, 178, 218,1) 45%, rgba(39, 149, 250,1) 100%);
+}
 
+.xp{
+      width: 100%;
+      height: 80px;
+}
 
+section.contact{
+      width: 100%;
+      height: 757px;
+      background-image: url("../img/eefnls9gw8c51.png");
+}
 
-
-
-
-
-footer {}
+footer {
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      padding: 10px;
+}      

@@ -1,0 +1,17 @@
+html{
+      scroll-behavior: smooth;
+}
+
+:target{
+      scroll-margin-top: 7em;
+}
+
+home:target, about:target, projects:target,skills:target{
+      scroll-behavior: smooth;
+}
+
+
+.home{
+      scroll-behavior: smooth;
+}
+
