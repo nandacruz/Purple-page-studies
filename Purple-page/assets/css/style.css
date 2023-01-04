@@ -146,6 +146,7 @@ section .about-item {
       letter-spacing: 20px;
       font-size: 2.3em;
       padding: 10px;
+      
 }
 
 section.home p {
@@ -188,11 +189,13 @@ section.skills{
       background-color: #53B2DA;
       background-image: url("../img/Minimalist-ocean-wallpaper-hd\ \(2\).png");
       background-repeat: no-repeat;
-      padding: 30px 10px 30px;
-      margin: 0;
+      
 
 }
 
+.background-title{
+      background: rgba(0, 0, 0, 0.3);
+}
 .soft-skills, .hard-skills{
       width: 100%;
       margin-top: 10px;
@@ -262,7 +265,7 @@ section.skills{
       width: 100%;
       height: 100%;
       min-height: 600px;
-      
+    
       background: linear-gradient(180deg, rgba(83, 178, 218,1) 45%, rgba(39, 149, 250,1) 100%);
 }
 
