@@ -253,10 +253,7 @@ section.skills{
       width: 100%;
 }
 
-.card-container .hard-card-skills .focus-skills{
-      
-  
-}
+
 .text-card{
 
 }
@@ -271,8 +268,32 @@ section.skills{
 
 .xp{
       width: 100%;
-      height: 80px;
+      min-height: 80px;
+
+      display: flex;
+      
+      
+     
 }
+
+.menu-xp, .about-xp{
+      background: rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      margin: 5px;
+}
+
+.menu-xp{
+      width: max-content;
+      height: 100%;
+}
+
+.about-xp{
+      width: 100%;
+     
+      
+}
+
+
 
 section.contact{
       width: 100%;
